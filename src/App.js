@@ -15,7 +15,7 @@ function App() {
  
   
   const config={
-    headers:{Authorization:`Bearer ${process.env.TOKEN}`}
+    headers:{Authorization:`Bearer ${process.env.local.TOKEN}`}
   }
   const bodyParameters = {
   "backgroundColor": inputValue.color,
